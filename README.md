@@ -2,40 +2,37 @@
 
 # exeni
 
-Breve descripción del proyecto: qué hace, para qué se utiliza, y cualquier información relevante que los usuarios o colaboradores deban saber.
-Exeni permite el guardado, extracción y envío de imágenes por WhatsApp. Este repositorio es parte del entorno de trabajo de exeni que se utiliza para que Salud Digna cuente con su propio repositorio de imágenes. 
+Exeni allows saving, extracting and sending images via WhatsApp. This repository is part of the exeni working environment used for Salud Digna to have its own image repository. 
 
-Este proyecto simula una copia de "Google Drive" pero adapatado hacia las necesidades de Salud Digna. Se pueden observar los estudios por paciente y con ello, acceder a las imágenes y videos de cada estudio realizado. 
+This project simulates a copy of "Google Drive" but adapted to the needs of Salud Digna. It is possible to view the studies per patient and thus access the images and videos of each study performed.
 
-## Comenzando
+## Let's get started
 
-1. Copia el link del repositorio
-2. Ubica una carpeta en tu equipo donde quieras guardar el repositorio y escribe en la terminal "git clone https://github.com/Uanify-SFM/uanify-exeni-frontend/"
-3. Una vez se haya terminado de descargar el repositorio, abre la carpeta con algun editor que tengas de preferencia
+1. Copy the repository link.
+2. Locate a folder on your computer where you want to save the repository and type in the terminal "git clone https://github.com/Uanify-SFM/uanify-exeni-frontend/".
+3. Once the repository has finished downloading, open the folder with an editor of your choice.
 
-### Prerrequisitos
+### Pre-requisites
 
-Qué cosas necesitas para instalar el software y cómo instalarlas.
+- Node must be installed (latest version April 2024).
+- You must have a code editor installed
+- Git must be installed (Windows, MacOs or Linux)
 
-- Se debe tener instalado node (última versión Abril 2024)
-- Se debe tener instalado algún editor de código
-- Se debe tener instlado Git
+### Installation
 
-### Instalación
+1. Once you have the project open in your code editor you will need to type the command "yarn install". This will install all the packages needed for the project to run correctly.
+2. Once the installation of the necessary packages is finished type in the terminal "yarn run dev".
+3. Then you will have to go to the address shown in the console to view the project.
 
-1. Una vez que tengas el proyecto abierto en tu editor de código tendrás que escribir el comando "yarn install". Esto instalará todos los paquetes que necesita el proyecto para que pueda ejecutarse correctamente.
-2. Ya que haya finalizado la instalación de los paquetes necesarios escribe en la terminal "yarn run dev".
-3. Posteriormente tendrás que dirigirite hacia la dirección que indica la consola para poder ver el proyecto
-
-### Notas de las vesiones
+### Version Notes
 
 #### Versión 1.0
-- Estructura del proyecto definida
-- La información que se muestra es estática
-- Se puede observar el flujo general de como se ven las carpetas desde los pacientes, los estudios por pacientes y los archivos que se verían por cada estudio
+-  Project structure defined.
+- The information shown is static.
+- You can see the general flow of how the folders are viewed from the patients, the studies per patient and the files that would be viewed for each study.
 
 
-### Estructura del proyecto
+### Project File Structure
 
 --- src  
       |- app  
@@ -47,7 +44,7 @@ Qué cosas necesitas para instalar el software y cómo instalarlas.
       |- redux  
       |- Root.tsx  
 
-### Vista previa
+### Preview
 <img width="1490" alt="image" src="https://github.com/Uanify-SFM/uanify-exeni-frontend/assets/76231203/3f5445ec-59d8-4b25-ab80-89c1d30b8223">
 <img width="1490" alt="image" src="https://github.com/Uanify-SFM/uanify-exeni-frontend/assets/76231203/16572a50-fccf-49e2-b2d6-c7738febb53f">
 <img width="1490" alt="image" src="https://github.com/Uanify-SFM/uanify-exeni-frontend/assets/76231203/4d7e904f-85d4-45ac-ac05-9cde3d540fbb">
