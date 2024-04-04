@@ -1,3 +1,4 @@
+import generalRowsData from "../../mocks/GeneralPatientRowData";
 import GeneralRow from "./GeneralRow";
 
 function GeneralTable() {
@@ -13,12 +14,15 @@ function GeneralTable() {
           Cantidad de estudios
         </p>
       </div>
-      <GeneralRow
-        id="RSV81637"
-        name="Ricardo González Flores"
-        date="3 abril 2024, 5:52 PM"
-        records={4}
-      />
+      {
+        generalRowsData.map((row) => 
+          <GeneralRow
+          id={row.id}
+          name={row.name}
+          date={row.date}
+          records={row.records}
+        />
+      )}
     </div>
   );
 }

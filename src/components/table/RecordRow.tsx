@@ -1,14 +1,8 @@
 import { Link } from "react-router-dom";
 import Folder from "../../assets/folder.svg";
+import { RecordRowInterface } from "../../interfaces/RecordRow";
 
-type RecordRowProps = {
-  id: string;
-  name: string;
-  date: string;
-  size: string;
-};
-
-function RecordRow({ id, name, date, size }: RecordRowProps) {
+function RecordRow({ id, name, date, size }: RecordRowInterface) {
   return (
     <button
       type="button"

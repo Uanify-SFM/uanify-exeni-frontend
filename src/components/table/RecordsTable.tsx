@@ -1,3 +1,4 @@
+import recordRowsData from "../../mocks/RecordRowData";
 import RecordRow from "./RecordRow";
 
 function RecordsTable() {
@@ -9,12 +10,15 @@ function RecordsTable() {
         <p className="text-sm font-medium text-slate-600">Fecha de creación</p>
         <p className="text-sm font-medium text-slate-600">Tamaño</p>
       </div>
-      <RecordRow
-        id="RSV81637"
-        name="RSV816379352"
-        date="3 de abril 2023"
-        size="500 KB"
-      />
+      {
+        recordRowsData.map((row) => 
+          <RecordRow
+          id={row.id}
+          name={row.name}
+          date={row.date}
+          size={row.size}
+        />
+      )}
     </div>
   );
 }

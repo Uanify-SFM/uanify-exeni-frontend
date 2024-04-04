@@ -1,14 +1,8 @@
 import { Link } from "react-router-dom";
 import Folder from "../../assets/folder.svg";
+import { GeneralRowInterface } from "../../interfaces/GeneralRow";
 
-type GeneralRowProps = {
-  id: string;
-  name: string;
-  date: string;
-  records: number;
-};
-
-function GeneralRow({ id, name, date, records }: GeneralRowProps) {
+function GeneralRow({ id, name, date, records }: GeneralRowInterface) {
   return (
     <Link
       to={"/patient-record"}

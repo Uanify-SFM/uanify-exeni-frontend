@@ -1,15 +1,7 @@
 import { BiImageAlt, BiMoviePlay } from "react-icons/bi";
+import { DetailRowInterface } from "../../interfaces/DetailRow";
 
-type DetailRowProps = {
-  id: string;
-  name: string;
-  branch: string;
-  fileType: string;
-  date: string;
-  size: string;
-};
-
-function DetailRow({ name, fileType, date, size, branch }: DetailRowProps) {
+function DetailRow({ name, fileType, date, size, branch }: DetailRowInterface) {
   return (
     <button
       type="button"
