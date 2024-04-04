@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { BiBell, BiQuestionMark, BiSearch } from "react-icons/bi";
-import Sidebar from "../../components/layout/Sidebar";
-import User from "../../assets/user.png";
+import Sidebar from "./components/layout/Sidebar";
+import User from "../src/assets/user.png";
 
 function Root() {
   return (

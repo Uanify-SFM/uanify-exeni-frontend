@@ -4,7 +4,7 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ErrorPage from "./pages/error-page";
 import CategoryPage from "./pages/categories";
-import Root from "./pages/patient-record-detail/root";
+import Root from "./Root";
 import Home from "./pages/home";
 import PatientRecord from "./pages/patient-record";
 import PatientRecordDetail from "./pages/patient-record-detail";
@@ -20,11 +20,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/patient-record/:id",
+        path: "/patient-record",
         element: <PatientRecord />,
       },
       {
-        path: "/patien-record-detail/:id",
+        path: "/patient-record-detail",
         element: <PatientRecordDetail />,
       },
       {
