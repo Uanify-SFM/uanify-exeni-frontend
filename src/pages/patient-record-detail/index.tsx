@@ -1,4 +1,5 @@
 import PathContainer from "../../components/path-container";
+import Preview from "../../components/preview";
 import DetailTable from "../../components/table/DetailTable";
 
 function PatientRecordDetail() {
@@ -13,7 +14,7 @@ function PatientRecordDetail() {
         />
         <DetailTable />
       </div>
-      <div className="bg-white border rounded-2xl w-[30vw]"></div>
+      <Preview />
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import PathContainer from "../../components/path-container";
+import Preview from "../../components/preview";
 import RecordsTable from "../../components/table/RecordsTable";
 
 function PatientRecord() {
@@ -8,7 +9,7 @@ function PatientRecord() {
         <PathContainer idPatient="1234" patientName="Ricardo González Flores" />
         <RecordsTable />
       </div>
-      <div className="bg-white border rounded-2xl w-[30vw]"></div>
+      <Preview />
     </div>
   );
 }
